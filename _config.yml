@@ -70,7 +70,7 @@ author_work_experiences:
                             - SMS AGV(Shelf Managerment System - Auto Guided Vehicle )<br />
               visibility: true
             - company_name: NEXTTECH GROUP
-              company_time: 10/2017 - 12/2017
+              company_time: 08/2017 - 12/2017
               company_logo: nexttech.png
               company_url: https://nexttech.asia/
               designation: Research & Development
@@ -113,9 +113,8 @@ author_project_details:
               - project_title: Hệ thống PLM module BOM
                 project_description: Phát triển chức năng cho module BOM
                 project_dev_cnt: 5
-                project_dev_pos: Developer FE & BE
+                project_dev_pos: Developer
                 project_dev_des: <p>- Cắt giao diện và xây dựng chức năng theo chuẩn thiết kế <br />
-                                  -  <br />
                                   - Thiết kế API
                 project_tech:   <p>- JSP <br />
                                    - Java, Struts <br />
@@ -124,9 +123,8 @@ author_project_details:
               - project_title: Hệ thống OPUS
                 project_description: Hệ thống cung cấp chuẩn UI/UX cho các hệ thống của Samsung SDS
                 project_dev_cnt: 5
-                project_dev_pos: Developer FE & BE
+                project_dev_pos: Developer
                 project_dev_des: <p>- Cắt giao diện và xây dựng chức năng theo chuẩn thiết kế <br />
-                                  -  <br />
                                   - Thiết kế API
                 project_tech:   <p>- VueJs <br />
                                    - Java, Spring boot <br />
@@ -139,7 +137,8 @@ author_project_details:
                 project_dev_pos: Quản lý Outsource
                 project_dev_des: <p>- Đưa ra yêu cầu phát triển, công nghệ sử dụng <br />
                                   - Reivew tài liệu giải pháp, ước lượng nỗ lực <br />
-                                  - Quản lý tiến độ và nghiệm thu 
+                                  - Quản lý chất lượng code
+                                  - Quản lý tiến độ và nghiệm thu <br />
                 project_tech:   <p>- Angular <br />
                                    - Java, Spring boot <br />
                                    - Maria DB
@@ -150,7 +149,7 @@ author_project_details:
                 project_dev_cnt: 4
                 project_dev_pos: Developer
                 project_dev_des: <p>- Phát triển module mới <br />
-                                  - Thay đổi cấu hình
+                                    - Thay đổi cấu hình
                 project_tech:   <p>- PrimeFaces <br />
                                   - Java, Spring boot <br />
                                   - Oracle DB
