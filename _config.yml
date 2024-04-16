@@ -83,8 +83,6 @@ author_education_details:
                 college_name: NEU
                 college_url: https://neu.edu.vn
                 college_degree: Ngành&#58; Công nghệ thông tin
-                description: GPA &#58; 3.26/4<br />
-                             Xếp loại&#58; Giỏi
                 visibility: true
 
 author_education_details2:
@@ -92,17 +90,11 @@ author_education_details2:
                 college_name: NEU
                 college_url: https://neu.edu.vn
                 college_degree: Ngành&#58; Kế toán tổng hợp
-                description: GPA&#58; 2.78/4
-                             <br />Xếp loại&#58; Khá
                 visibility: true
 
 #Certificate
 author_certificate_details:
-              - name: Toeic - 600 (Test of English for International Communication)
-                visibility: true
-              - name: MOS2013 (MICROSOFT OFFICE SPECIALIST)
-                visibility: false
-              - name: Global Java Developer FPT Software
+              - name: Global Java Developer - FPT Software
                 visibility: true            
 
 # Projects
