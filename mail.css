@@ -31,9 +31,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .mail{
-    width: 550px;
-    height: 300px;
     border: 2px dashed rgb(167,32,71);
     border-radius: 15px;
 }
