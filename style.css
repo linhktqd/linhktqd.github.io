@@ -599,7 +599,7 @@ body{
     height: 35px;
     background: #ffffff;
     top: -30px;
-    left: 50px;
+    left: 00px;
     border-radius: 5px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -649,7 +649,7 @@ body{
     height: 35px;
     background: #ffffff;
     top: -30px;
-    right: 50px;
+    right: 0px;
     border-radius: 5px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -684,7 +684,7 @@ body{
     background-position: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     left: 220px;
-    top: 22%;
+    top: 24%;
     z-index: 10000;
     transform: scale(0);
     animation: giftCute 2s forwards 13s;
