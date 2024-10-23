@@ -66,19 +66,15 @@
         </div>
     </div>
     <audio id="myAudio" src="https://dtlinh6.me/sound/Chi-Muon-Ben-Em-That-Gan.mp3" autoplay></audio>
-    <script>
-        window.onload = function() {
-          var audio = document.getElementById('myAudio');
-          audio.muted = false; // Unmute the audio after the page loads
-        };
-      </script>
+
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script>
         $(window).on('load', function(event){
         $('body').removeClass('preloading');
         $('.loader-wrapper').delay(1000).fadeOut('fast');
- 
+        var audio = document.getElementById('myAudio');
+        audio.muted = false;
         // Remove preloading class to show content
             document.querySelector('.warpper').classList.remove('preloading');
             document.querySelector('.warpper').classList.add('loaded');
