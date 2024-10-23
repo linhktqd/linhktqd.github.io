@@ -8,13 +8,27 @@
     <link rel="stylesheet" href="mail.css">
     <title>Gửi em!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .preloading {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        .loaded {
+            opacity: 1;
+        }
+        .cursor-outer, .cursor-inner {
+            position: absolute;
+            pointer-events: none;
+        }
+    </style>
 </head>
 <body>
 <!-- <body class="post-template-default single single-post postid-12802 single-format-standard"data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">  -->
-    <div class="mouse-cursor cursor-outer cursor-hover" style="visibility: visible; transform: translate(781px, 143px);"></div>
-    <div class="mouse-cursor cursor-inner cursor-hover"  style="visibility: visible; transform: translate(781px, 143px);"></div>
+    <!-- <div class="mouse-cursor cursor-outer cursor-hover" style="visibility: visible; transform: translate(781px, 143px);"></div>
+    <div class="mouse-cursor cursor-inner cursor-hover"  style="visibility: visible; transform: translate(781px, 143px);"></div> -->
 
-    <div class="warpper preloading">
+    <!-- <div class="warpper preloading"> -->
+    <div class="warpper">
         <div class="box">
             <div class="mail">
                 <div class="heart">
@@ -61,10 +75,12 @@
         $('body').removeClass('preloading');
         $('.loader-wrapper').delay(1000).fadeOut('fast');
  
-
+        // Remove preloading class to show content
+            document.querySelector('.warpper').classList.remove('preloading');
+            document.querySelector('.warpper').classList.add('loaded');
     });
     </script>
-    <script>
+    <!-- <script>
         document.addEventListener("mousemove", function(event) {
         var outerCursor = document.querySelector(".cursor-outer");
         var innerCursor = document.querySelector(".cursor-inner");
@@ -77,23 +93,23 @@
         hoverCursor.forEach(function(cursor) {
             cursor.classList.remove(".cursor-hover");
         });
-    });
+    }); -->
     
-    document.addEventListener("mouseover", function(event) {
-        var hoverCursor = document.querySelectorAll(".cursor-hover");
+    // document.addEventListener("mouseover", function(event) {
+    //     var hoverCursor = document.querySelectorAll(".cursor-hover");
     
-        hoverCursor.forEach(function(cursor) {
-            cursor.classList.add("cursor-hover");
-        });
-    });
+    //     hoverCursor.forEach(function(cursor) {
+    //         cursor.classList.add("cursor-hover");
+    //     });
+    // });
     
-    document.addEventListener("mouseout", function(event) {
-        var hoverCursor = document.querySelectorAll(".cursor-hover");
+    // document.addEventListener("mouseout", function(event) {
+    //     var hoverCursor = document.querySelectorAll(".cursor-hover");
     
-        hoverCursor.forEach(function(cursor) {
-            cursor.classList.remove(".cursor-hover");
-        });
-    });
+    //     hoverCursor.forEach(function(cursor) {
+    //         cursor.classList.remove(".cursor-hover");
+    //     });
+    // });
     </script>
     <script src="script.js"></script>
 </html>

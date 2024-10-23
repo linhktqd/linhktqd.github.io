@@ -150,7 +150,7 @@ body{
 
 .listSlider{
     position: relative;
-    width: 200px;
+    width: 258px;
     height: 100px;
     display: flex;
     overflow: hidden;
@@ -163,7 +163,7 @@ body{
     transition: 0.5s;
 }
 .listSlider img{
-    width: 200px;
+    width: 258px;
     height: 100%;
     object-fit: cover;
 }
