@@ -477,7 +477,7 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin-top: 180px;
+    margin-top: 445px;
     filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
     transform: scale(0);
     animation: boxMail 2s forwards ease-in-out 18s;
@@ -561,8 +561,8 @@ body{
 }
 .gift{
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     background: url(image/gift7.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -625,8 +625,8 @@ body{
 }
 .gift1{
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     background: url(image/gift5.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -675,8 +675,8 @@ body{
 }
 .gift2{
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     background: url(image/gift6.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -684,7 +684,7 @@ body{
     background-position: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     left: 220px;
-    top: 24%;
+    top: 20%;
     z-index: 10000;
     transform: scale(0);
     animation: giftCute 2s forwards 13s;
@@ -715,8 +715,8 @@ body{
 }
 .gift3{
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     background: url(image/gift3.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -724,7 +724,7 @@ body{
     background-position: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     right: 220px;
-    top: 22%;
+    top: 20%;
     z-index: 10000;
     transform: scale(0);
     animation: giftCute 2s forwards 13.5s;
