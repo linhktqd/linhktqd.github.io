@@ -22,13 +22,11 @@
         }
     </style>
 </head>
-<body>
-<!-- <body class="post-template-default single single-post postid-12802 single-format-standard"data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">  -->
-    <!-- <div class="mouse-cursor cursor-outer cursor-hover" style="visibility: visible; transform: translate(781px, 143px);"></div>
-    <div class="mouse-cursor cursor-inner cursor-hover"  style="visibility: visible; transform: translate(781px, 143px);"></div> -->
+<body class="post-template-default single single-post postid-12802 single-format-standard"data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0"> 
+    <div class="mouse-cursor cursor-outer cursor-hover" style="visibility: visible; transform: translate(781px, 143px);"></div>
+    <div class="mouse-cursor cursor-inner cursor-hover"  style="visibility: visible; transform: translate(781px, 143px);"></div>
 
-    <!-- <div class="warpper preloading"> -->
-    <div class="warpper">
+    <div class="warpper preloading">
         <div class="box">
             <div class="mail">
                 <div class="heart">
@@ -80,7 +78,7 @@
             document.querySelector('.warpper').classList.add('loaded');
     });
     </script>
-    <!-- <script>
+    <script>
         document.addEventListener("mousemove", function(event) {
         var outerCursor = document.querySelector(".cursor-outer");
         var innerCursor = document.querySelector(".cursor-inner");
@@ -93,23 +91,23 @@
         hoverCursor.forEach(function(cursor) {
             cursor.classList.remove(".cursor-hover");
         });
-    }); -->
+    });
     
-    // document.addEventListener("mouseover", function(event) {
-    //     var hoverCursor = document.querySelectorAll(".cursor-hover");
+    document.addEventListener("mouseover", function(event) {
+        var hoverCursor = document.querySelectorAll(".cursor-hover");
     
-    //     hoverCursor.forEach(function(cursor) {
-    //         cursor.classList.add("cursor-hover");
-    //     });
-    // });
+        hoverCursor.forEach(function(cursor) {
+            cursor.classList.add("cursor-hover");
+        });
+    });
     
-    // document.addEventListener("mouseout", function(event) {
-    //     var hoverCursor = document.querySelectorAll(".cursor-hover");
+    document.addEventListener("mouseout", function(event) {
+        var hoverCursor = document.querySelectorAll(".cursor-hover");
     
-    //     hoverCursor.forEach(function(cursor) {
-    //         cursor.classList.remove(".cursor-hover");
-    //     });
-    // });
+        hoverCursor.forEach(function(cursor) {
+            cursor.classList.remove(".cursor-hover");
+        });
+    });
     </script>
     <script src="script.js"></script>
 </html>
