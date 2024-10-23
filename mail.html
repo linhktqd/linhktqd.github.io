@@ -73,12 +73,6 @@
         $(window).on('load', function(event){
         $('body').removeClass('preloading');
         $('.loader-wrapper').delay(1000).fadeOut('fast');
-        var audio = document.getElementById('myAudio');
-        audio.muted = false;
-        audio.play();
-        // Remove preloading class to show content
-            document.querySelector('.warpper').classList.remove('preloading');
-            document.querySelector('.warpper').classList.add('loaded');
     });
     </script>
     <script>
